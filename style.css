@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.container {
+  background-color: #fff;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.art-image {
+  max-width: 80%;
+  height: auto;
+  margin: 20px 0;
+}
+
+input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  margin: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+#choices button {
+  display: block;
+  margin: 5px auto;
+  padding: 8px 12px;
+  font-size: 16px;
+  width: 200px;
+}
+#learnMore {
+  display: none;          /* hidden by default, JS toggles it */
+  margin-top: 10px;
+  max-height: 150px;      /* limits vertical space */
+  overflow-y: auto;       /* adds a vertical scrollbar if text is too long */
+  padding: 8px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  font-size: 14px;
+  line-height: 1.4;
+}
+

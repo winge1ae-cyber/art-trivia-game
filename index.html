@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Trivia Game</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Basic reset */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 700px;
+            width: 90%;
+            padding: 20px;
+            margin-top: 30px;
+            background-color: #fff;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .art-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: contain;
+            display: block;
+            margin: 0 auto 20px auto;
+            border-radius: 5px;
+        }
+
+        #question {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        #choices button {
+            display: block;
+            width: 100%;
+            margin: 5px 0;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #f0f0f0;
+            transition: background-color 0.2s ease;
+        }
+
+        #choices button:hover {
+            background-color: #e0e0e0;
+        }
+
+        #feedback {
+            font-size: 1rem;
+            font-weight: bold;
+            margin: 10px 0;
+            min-height: 24px; /* prevent layout jump */
+        }
+
+        #learnBtn {
+            display: none;
+            margin: 10px 0;
+            padding: 8px 12px;
+            font-size: 1rem;
+            border-radius: 5px;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+
+        #learnMore {
+            display: none;
+            background-color: #f9f9f9;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            transition: opacity 0.3s ease;
+        }
+
+        #fact {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            margin-bottom: 8px;
+        }
+
+        #link {
+            display: inline-block;
+            color: #1a73e8;
+            text-decoration: none;
+            margin-top: 5px;
+        }
+
+        #link:hover {
+            text-decoration: underline;
+        }
+
+        #score {
+            font-weight: bold;
+        }
+
+        #nextBtn, #resetBtn {
+            margin: 10px 5px 0 0;
+            padding: 8px 12px;
+            font-size: 1rem;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+
+        #nextBtn {
+            background-color: #2196F3;
+            color: white;
+        }
+
+        #nextBtn:disabled {
+            background-color: #90caf9;
+            cursor: not-allowed;
+        }
+
+        #resetBtn {
+            background-color: #f44336;
+            color: white;
+        }
+
+        /* Mobile adjustments */
+        @media (max-width: 500px) {
+            #choices button {
+                font-size: 0.9rem;
+                padding: 8px;
+            }
+            #learnBtn, #nextBtn, #resetBtn {
+                font-size: 0.9rem;
+                padding: 6px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Art Trivia</h1>
+
+    <img id="art" src="" alt="Art" class="art-image">
+
+    <p id="question"></p>
+
+    <div id="choices"></div>
+
+    <p id="feedback"></p>
+
+    <!-- Learn More Section -->
+    <button id="learnBtn">Learn More</button>
+    <div id="learnMore">
+        <p id="fact"></p>
+        <a id="link" href="#" target="_blank">Visit museum page</a>
+    </div>
+
+    <p>Score: <span id="score">0</span></p>
+    <button id="nextBtn">Next Art</button>
+    <button id="resetBtn">Reset Score</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
