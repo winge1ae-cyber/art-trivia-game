@@ -190,14 +190,6 @@ const gallery = [
     link: "https://www.artic.edu/artworks/1938.1276/approaching-storm"
   },
   {
-    file: "Nighthawks.jpg",
-    question: "What style is this?",
-    choices: ["American Realism", "Impressionism", "Expressionism", "Cubism"],
-    answer: "American Realism",
-    fact: "Hopper’s Nighthawks, depicting ordinary city life with clarity, structure, and psychological insight, is emblematic of American Realism.",
-    link: "https://www.artic.edu/artworks/111628/nighthawks"
-  },
-  {
     file: "1906.99 - The Assumption of the Virgin.jpg",
     question: "What style is this?",
     choices: ["Mannerism", "Baroque", "Renaissance", "Romanticism"],
