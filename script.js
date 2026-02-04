@@ -82,7 +82,7 @@ const gallery = [
       answer: "Claude Monet",
       fact: "Water Lily Pond was among the 18 similar versions of the motif that he made in 1899–1900; their common theme was the mingling of the lilies with reflections of other vegetation on the pool’s surface. In this painting, Monet abandoned traditional perspective and allowed the pond’s surface to dominate the composition, creating a rhythmic, almost abstract pattern of reflections and floating plants. Each stroke was carefully placed to evoke the shimmering quality of water, the movement of light, and the delicate forms of the lilies themselves. The viewer is drawn into the painting’s surface, experiencing both the complexity and serenity of the scene, while Monet’s mastery of color modulation conveys depth and harmony.",
       link: "https://www.artic.edu/artworks/14645/water-lily-pond"
-    }
+    },
   {
     file: "1900.52 - Nocturne_ Blue and Gold—Southampton Water.jpg",
     question: "Who painted this?",
