@@ -162,7 +162,11 @@ const gallery = [
     question: "What style is this?",
     choices: ["Impressionism", "Baroque", "Mannerism", "Realism"],
     answer: "Impressionism",
+<<<<<<< HEAD
     fact: "Impressionism (1860s–1880s, France): Quick, visible brushstrokes capture light and fleeting moments. Focuses on everyday life and the atmosphere rather than detail. Outdoor scenes and vibrant colors dominate.",
+=======
+    fact: "In the early 1870s, James McNeill Whistler took a radical step toward abstraction with his Nocturnes series. These works capture the stillness of evening while evoking a connection to music. The emphasis on tone, atmosphere, and subtle color gradations over precise detail exemplifies Impressionist tendencies in mood and light.",
+>>>>>>> da8b2ff185b4a4dcb8cd55fcff9990d8e41a67b5
     link: "https://www.artic.edu/artworks/56905/nocturne-blue-and-gold-southampton-water"
   },
   {
@@ -170,7 +174,11 @@ const gallery = [
     question: "What style is this?",
     choices: ["Impressionism", "Baroque", "Realism", "Expressionism"],
     answer: "Impressionism",
+<<<<<<< HEAD
     fact: "Impressionism (1860s–1880s, France): Quick, visible brushstrokes capture light and fleeting moments. Focuses on everyday life and the atmosphere rather than detail. Outdoor scenes and vibrant colors dominate.",
+=======
+    fact: "Antonio Mancini’s Resting combines delicate brushwork, attention to light, and emotional subtlety, aligning with Impressionist values of capturing transient moments and the effects of light.",
+>>>>>>> da8b2ff185b4a4dcb8cd55fcff9990d8e41a67b5
     link: "https://www.artic.edu/artworks/1962.960/resting"
   },
   {
@@ -178,7 +186,11 @@ const gallery = [
     question: "What style is this?",
     choices: ["Impressionism", "Neo-Impressionism", "Surrealism", "Cubism"],
     answer: "Impressionism",
+<<<<<<< HEAD
     fact: "Impressionism (1860s–1880s, France): Quick, visible brushstrokes capture light and fleeting moments. Focuses on everyday life and the atmosphere rather than detail. Outdoor scenes and vibrant colors dominate.",
+=======
+    fact: "Pissarro returned to loose, multidirectional brushstrokes for urban scenes, emphasizing light, atmosphere, and transient effects, characteristic of Impressionism.",
+>>>>>>> da8b2ff185b4a4dcb8cd55fcff9990d8e41a67b5
     link: "https://www.artic.edu/artworks/1922.434/the-place-du-havre-paris"
   },
   {
@@ -186,7 +198,11 @@ const gallery = [
     question: "What style is this?",
     choices: ["Impressionism", "Romanticism", "Baroque", "Realism"],
     answer: "Impressionism",
+<<<<<<< HEAD
     fact: "Impressionism (1860s–1880s, France): Quick, visible brushstrokes capture light and fleeting moments. Focuses on everyday life and the atmosphere rather than detail. Outdoor scenes and vibrant colors dominate.",
+=======
+    fact: "Boudin’s open-air beach scenes, attention to changing light and atmosphere, and focus on natural spontaneity demonstrate clear Impressionist principles.",
+>>>>>>> da8b2ff185b4a4dcb8cd55fcff9990d8e41a67b5
     link: "https://www.artic.edu/artworks/1938.1276/approaching-storm"
   },
   {
@@ -194,7 +210,11 @@ const gallery = [
     question: "What style is this?",
     choices: ["Mannerism", "Baroque", "Renaissance", "Romanticism"],
     answer: "Mannerism",
+<<<<<<< HEAD
     fact: "Mannerism (1520–1600): Exaggerated, elegant, and stylized. Figures are elongated, compositions complex, and tension replaces natural balance.",
+=======
+    fact: "El Greco’s elongated forms, dramatic gestures, and spiritual intensity define Mannerist style.",
+>>>>>>> da8b2ff185b4a4dcb8cd55fcff9990d8e41a67b5
     link: "https://www.artic.edu/artworks/87479/the-assumption-of-the-virgin"
   },
   {
@@ -202,7 +222,11 @@ const gallery = [
     question: "What style is this?",
     choices: ["Baroque", "Mannerism", "Renaissance", "Dutch Golden Age"],
     answer: "Dutch Golden Age",
+<<<<<<< HEAD
     fact: "Dutch Golden Age (1600–1700): Highly detailed, realistic, and often intimate. Domestic scenes, portraits, and landscapes show wealth and civic pride. Mastery of light and texture is key.",
+=======
+    fact: "Rembrandt’s careful use of light, shadow, and realism typifies Dutch Golden Age portraiture.",
+>>>>>>> da8b2ff185b4a4dcb8cd55fcff9990d8e41a67b5
     link: "https://www.rijksmuseum.nl/en/collection/SK-A-4467"
   },
   {
@@ -210,7 +234,11 @@ const gallery = [
     question: "What style is this?",
     choices: ["Dutch Golden Age", "Impressionism", "Baroque", "Renaissance"],
     answer: "Dutch Golden Age",
+<<<<<<< HEAD
     fact: "Dutch Golden Age (1600–1700): Highly detailed, realistic, and often intimate. Domestic scenes, portraits, and landscapes show wealth and civic pride. Mastery of light and texture is key.",
+=======
+    fact: "Vermeer’s The Milkmaid, with its meticulous attention to light and domestic realism, embodies Dutch Golden Age painting.",
+>>>>>>> da8b2ff185b4a4dcb8cd55fcff9990d8e41a67b5
     link: "https://www.rijksmuseum.nl/en/collection/SK-A-2344"
   },
   {
@@ -218,7 +246,11 @@ const gallery = [
     question: "What style is this?",
     choices: ["Dutch Golden Age", "Baroque", "Renaissance", "Realism"],
     answer: "Dutch Golden Age",
+<<<<<<< HEAD
     fact: "Dutch Golden Age (1600–1700): Highly detailed, realistic, and often intimate. Domestic scenes, portraits, and landscapes show wealth and civic pride. Mastery of light and texture is key.",
+=======
+    fact: "Rembrandt’s The Night Watch, combining dramatic lighting and dynamic group composition, exemplifies Dutch Golden Age style.",
+>>>>>>> da8b2ff185b4a4dcb8cd55fcff9990d8e41a67b5
     link: "https://www.rijksmuseum.nl/en/collection/SK-C-5"
   },
   {
@@ -226,6 +258,7 @@ const gallery = [
     question: "What style is this?",
     choices: ["Dutch Golden Age", "Baroque", "Renaissance", "Realism"],
     answer: "Dutch Golden Age",
+<<<<<<< HEAD
     fact: "Dutch Golden Age (1600–1700): Highly detailed, realistic, and often intimate. Domestic scenes, portraits, and landscapes show wealth and civic pride. Mastery of light and texture is key.",
     link: "https://www.rijksmuseum.nl/en/collection/SK-A-133"
   },
@@ -502,6 +535,13 @@ const gallery = [
       link: ""
     }
     ];
+=======
+    fact: "Frans Hals’ lively brushwork, realistic gestures, and social observation place this work firmly within the Dutch Golden Age tradition.",
+    link: "https://www.rijksmuseum.nl/en/collection/SK-A-133"
+  }
+];
+
+>>>>>>> da8b2ff185b4a4dcb8cd55fcff9990d8e41a67b5
 // Shuffle gallery for random order
 function shuffleGallery() {
   shuffledGallery = [...gallery];
