@@ -271,14 +271,6 @@ const gallery = [
       link: "https://en.wikipedia.org/wiki/The_School_of_Athens"
     },
     {
-      file: "Sandro_Botticelli_-_La_nascita_di_Venere.jpg",
-      question: "Who painted La Nascita di Venere?",
-      choices: ["Sandro Botticelli", "Raphael", "Caravaggio", "Eugène Delacroix"],
-      answer: "Sandro Botticelli",
-      fact:"La Nascita di Venere: Venus emerges from the sea on a shell, rendered with graceful linearity and flowing forms. Botticelli emphasizes elegance and idealized beauty, combining mythological narrative with delicate ornamentation. The painting celebrates harmony, proportion, and the Renaissance fascination with classical mythology.",
-      link: "https://en.wikipedia.org/wiki/The_Birth_of_Venus"
-    },
-    {
       file: "Caravaggio_—_The_Calling_of_Saint_Matthew.jpg",
       question: "Who painted The Calling of Saint Matthew?",
       choices: ["Caravaggio", "Raphael", "Peter Paul Rubens", "Jean-François Millet"],
@@ -404,14 +396,6 @@ const gallery = [
       choices: ["Renaissance", "Baroque", "Mannerism", "Impressionism"],
       answer: "Renaissance",
       fact: "",
-      link: ""
-    },
-    {
-      file: "Sandro_Botticelli_-_La_nascita_di_Venere.jpg",
-      question: "What style is La Nascita di Venere?",
-      choices: ["Renaissance", "Baroque", "Mannerism", "Impressionism"],
-      answer: "Renaissance",
-      fact: "(14th–17th century) The Renaissance marked a rebirth of classical learning, humanism, and proportion. Artists emphasized balanced composition, perspective, and anatomical accuracy. Subjects ranged from religious to secular, with a focus on the beauty and dignity of the human form. Hallmarks include linear perspective, harmonious proportion, classical motifs, and intellectual engagement. Major figures include Leonardo da Vinci, Michelangelo, and Raphael.",
       link: ""
     },
     {
